@@ -1,0 +1,70 @@
+# Dependencies
+/node_modules/
+
+# Build output
+/dist/
+/build/
+*.tsbuildinfo
+
+# Test output
+/coverage/
+/.nyc_output/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Generated Prisma clients
+/generated/prisma/
+/src/generated/prisma/
+
+# Logs and runtime files
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+.temp/
+.tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor settings
+/.idea/
+/.vscode/
+*.sublime-workspace
+
+# AI/editor workspace metadata
+/.agents/
+/.claude/
+/.cursor/
+/.devin/
+/.windsurf/
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ---------------------------------------------------------------------------------
+
+.env
+node_modules/
+dist/
+generated/
+src/generated/
+.agents/
+.claude/
+.cursor/
+.devin/
+.windsurf/
+skills-lock.json
