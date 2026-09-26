@@ -582,7 +582,7 @@ npx prisma migrate dev
 
 ---
 
-### 7. Start the application
+## 7. Start the application
 
 ```bash
 npm run start:dev
@@ -590,7 +590,7 @@ npm run start:dev
 
 By default, the API runs at `http://localhost:3000` unless `PORT` is changed.
 
-### 8. Run tests
+## 8. Run tests
 
 Run all tests serially:
 
@@ -600,7 +600,7 @@ npm test -- --runInBand
 
 ---
 
-### 9. Code Quality
+## 9. Code Quality
 
 Run ESLint:
 
@@ -608,7 +608,7 @@ Run ESLint:
 npm run lint
 ```
 
-### 10. Create a production build:
+## 10. Create a production build:
 
 ```bash
 npm run build
@@ -619,7 +619,7 @@ ESLint and Prettier are configured for consistent code quality and formatting.
 
 If Node has limited available memory during local compilation, the heap can be increased temporarily:
 
-### PowerShell
+## PowerShell
 
 ```powershell
 $env:NODE_OPTIONS="--max-old-space-size=4096"
